@@ -1,0 +1,19 @@
+[package]
+name = "demo"
+version = "0.0.0"
+description  = "Library demo"
+authors = ["Sean Fisk <sean@seanfisk.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.8"
+anyhow = "1.0"
+
+[dependencies.user-defaults]
+path = ".."
+
+[package.metadata.bundle]
+identifier = "com.vmware.user-defaults"
+category = "Developer Tool"
+osx_minimum_system_version = "10.10"

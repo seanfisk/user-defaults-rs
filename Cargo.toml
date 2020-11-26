@@ -1,0 +1,17 @@
+[package]
+name = "user-defaults"
+version = "0.1.0"
+description  = "Rust interface to macOS user defaults"
+authors = ["Sean Fisk <sean@seanfisk.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+thiserror = "1.0"
+
+[build-dependencies]
+bindgen = "0.53"
+cc = "1.0"
+
+[workspace]
+members = ["demo"]

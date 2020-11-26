@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -o errexit
+
+(cd demo && cargo bundle)
+exec target/debug/bundle/osx/demo.app/Contents/MacOS/demo
