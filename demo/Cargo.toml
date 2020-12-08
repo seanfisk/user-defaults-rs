@@ -13,6 +13,8 @@ anyhow = "1.0"
 [dependencies.user-defaults]
 path = ".."
 
+# This demo needs to be a crate and not an example due to the requirement of being built as an app bundle to work correctly with macOS' user defaults system
+
 [package.metadata.bundle]
 identifier = "com.vmware.user-defaults"
 category = "Developer Tool"
