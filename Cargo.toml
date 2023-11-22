@@ -1,6 +1,6 @@
 [package]
 name = "user-defaults"
-version = "0.1.0"
+version = "0.2.0"
 description  = "Rust interface to macOS user defaults"
 authors = ["Sean Fisk <sean@seanfisk.com>"]
 edition = "2018"
